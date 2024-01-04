@@ -683,9 +683,6 @@ ul li {
     top: 0;
 }
 
-/* .logo-list a:last-child {
-    margin-right: 0;
-} */
 .marquee {
     display: flex;
     overflow: hidden;

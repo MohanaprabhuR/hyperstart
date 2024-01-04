@@ -680,7 +680,7 @@
         padding: 0 1.875rem;
     }
 
-
+   
 
     .logo-list {
         padding-top: 2.5rem;
@@ -862,7 +862,7 @@
     }
 
     .section-logo .wrapper::after, .section-logo .wrapper::before {
-        top: 20px;
+        top: 30px;
         height: 50px;
         width: 80px;
     }
@@ -874,4 +874,5 @@
     .brand-title {
         padding: 0 1.25rem;
     }
+   
 }
