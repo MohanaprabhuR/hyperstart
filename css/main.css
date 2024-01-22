@@ -1207,7 +1207,7 @@ ul li {
     margin-right: 0;
 }
 
-.embla__slide.embla-slider-store .embla__slide_image{
+.embla__slide.embla-slider-store .embla__slide_image {
     padding-left: 0;
     margin: 0 -1rem -1.5rem -2rem;
 }
@@ -1513,3 +1513,188 @@ ul li {
 }
 
 /* Section FAQ - Ends */
+
+
+
+.logo-circle-list {
+    position: relative;
+    height: 432px;
+    animation: circle 50s linear infinite;
+    -webkit-animation: circle 50s linear infinite;
+}
+
+.logo-circle-list>figure,
+.circle-logos figure>img {
+    animation: inner-circle 50s linear infinite;
+    -webkit-animation: inner-circle 50s linear infinite;
+}
+
+.logo-star {
+    width: 148px;
+    height: 148px;
+    flex-shrink: 0;
+    border-radius: 1000px;
+    background: linear-gradient(212deg, #534AFF -17.06%, #5A43EB 95.39%);
+}
+
+.logo-star>img {
+    width: 52px;
+    height: 44px;
+}
+
+.logo-bg {
+    width: 110px;
+    height: 110px;
+    border-radius: 1000px;
+    background: #FFF;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.02), 0px 0px 2px 0px rgba(0, 0, 0, 0.04);
+    position: absolute;
+
+}
+
+.logo-bg img {
+    width: auto;
+    height: auto;
+}
+
+.logo-gmail {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.logo-sign {
+    top: 44px;
+    right: 45px;
+
+}
+
+.logo-salesforce {
+    top: 38%;
+    right: 0;
+}
+
+.logo-word {
+    bottom: 44px;
+    right: 45px;
+}
+
+.logo-download {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo-email {
+    bottom: 44px;
+    left: 45px;
+}
+
+.logo-drive {
+    top: 38%;
+    left: 0;
+}
+
+.logo-share-point {
+    top: 44px;
+    left: 45px;
+}
+
+
+.logo-bg::after {
+    content: '';
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    border-radius: 1000px;
+    background: #FFF;
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+}
+
+
+.logo-gmail::after {
+    top: 0;
+    right: -2.5rem;
+
+}
+
+.logo-sign::after {
+    bottom: -0.25rem;
+    right: -2rem;
+}
+
+.logo-salesforce::after {
+    bottom: -2.5rem;
+    right: 0rem;
+}
+
+.logo-word::after {
+    left: 0;
+    bottom: -2rem;
+}
+
+.logo-download::after {
+    left: -2.5rem;
+    bottom: 0.5rem;
+
+}
+
+.logo-email::after {
+    top: 0;
+    left: -2.5rem;
+
+}
+
+.logo-drive::after {
+    top: -2.5rem;
+    left: 0rem;
+
+
+}
+
+.logo-share-point::after {
+    top: -2.5rem;
+    right: 0;
+}
+
+@keyframes circle {
+    from {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+    }
+}
+
+
+@keyframes inner-circle {
+    from {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(-360deg);
+        -webkit-transform: rotate(-360deg);
+        -moz-transform: rotate(-360deg);
+        -ms-transform: rotate(-360deg);
+        -o-transform: rotate(-360deg);
+    }
+}

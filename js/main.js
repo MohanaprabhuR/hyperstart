@@ -87,7 +87,9 @@ function thumbCarousal () {
       EmblaCarouselAutoplay(
         {
           playOnInit: true,
-          delay: delay
+          delay: delay,
+          stopOnInteraction: false,
+          stopOnMouseEnter:true
         },
         (emblaRoot) => emblaRoot.parentElement
       )
@@ -110,7 +112,9 @@ function thumbCarousal () {
       EmblaCarouselAutoplay(
         {
           playOnInit: true,
-          delay: delay
+          delay: delay,
+          stopOnInteraction: false,
+          stopOnMouseEnter:true
         },
         (emblaRoot) => emblaRoot.parentElement
       )
