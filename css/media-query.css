@@ -971,3 +971,38 @@
         bottom:0;
     }
 }
+
+
+
+@media (max-width: 320px) {
+    .integration-group-image {
+        max-width: 300px;
+    }
+    .logo-circle-list {
+        height: 300px;
+    }
+    
+    .logo-star {
+        width: 90px;
+        height: 90px;
+    }
+    .logo-bg {
+        width: 70px;
+        height: 70px;
+    }
+    .logo-email::after {
+        top: 0px;
+    }
+    .logo-drive::after {
+        top: -2.35rem;
+    }
+    .logo-download::after {
+        left: -2.5rem;
+    }    
+    .logo-salesforce::after {
+        bottom: -2.25rem;
+    }
+    .logo-sign::after {
+        bottom: 0px;
+    }
+}
