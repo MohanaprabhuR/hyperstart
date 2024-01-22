@@ -306,7 +306,8 @@
     .hyperstart-today-list {
         padding-top: 3.5rem;
     }
-    .section-seamless-integration{
+
+    .section-seamless-integration {
         overflow: hidden;
     }
 
@@ -480,9 +481,9 @@
     .section-seamless-integration .d-flex {
         flex-wrap: wrap;
         flex-direction: column-reverse;
-        
+
     }
-   
+
     .seamless-integration-info {
         max-width: 100%;
         padding: 3rem 0 0 0;
@@ -614,6 +615,7 @@
     .list-info h6 {
         margin-top: 1.875rem;
     }
+
     .integration-group-image {
         max-width: 340px;
     }
@@ -908,68 +910,83 @@
         width: 100px;
         height: 100px;
     }
+
     .logo-bg {
         width: 80px;
         height: 80px;
     }
+
     .logo-circle-list {
         height: 300px;
     }
+
     .logo-circle-list {
         height: 320px;
     }
+
     .integration-group-image {
         max-width: 320px;
     }
+
     .logo-gmail::after {
         right: -2.5rem;
         top: 6px;
     }
+
     .logo-sign::after {
         bottom: 7px;
     }
+
     .logo-salesforce::after {
         bottom: -2rem;
         right: 1rem;
     }
+
     .logo-word::after {
         left: 5px;
         bottom: -2rem;
     }
-    
+
     .logo-download::after {
         bottom: 1rem;
-    }  
+    }
+
     .logo-email::after {
         top: 10px;
     }
+
     .logo-share-point::after {
         right: 6px;
         top: -2.25rem;
     }
+
     .logo-drive::after {
         top: -2rem;
     }
+
     .logo-sign {
         top: 40px;
         right: 35px;
     }
+
     .logo-share-point {
         top: 40px;
         left: 35px;
     }
+
     .logo-word {
         bottom: 33px;
         right: 35px;
     }
-    
+
     .logo-email {
         bottom: 33px;
         left: 35px;
-    }    
+    }
+
     .logo-download::after {
         left: -2rem;
-        bottom:0;
+        bottom: 0;
     }
 }
 
@@ -979,30 +996,37 @@
     .integration-group-image {
         max-width: 300px;
     }
+
     .logo-circle-list {
         height: 300px;
     }
-    
+
     .logo-star {
         width: 90px;
         height: 90px;
     }
+
     .logo-bg {
         width: 70px;
         height: 70px;
     }
+
     .logo-email::after {
         top: 0px;
     }
+
     .logo-drive::after {
         top: -2.35rem;
     }
+
     .logo-download::after {
         left: -2.5rem;
-    }    
+    }
+
     .logo-salesforce::after {
         bottom: -2.25rem;
     }
+
     .logo-sign::after {
         bottom: 0px;
     }
