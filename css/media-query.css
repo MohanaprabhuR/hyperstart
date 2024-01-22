@@ -306,6 +306,9 @@
     .hyperstart-today-list {
         padding-top: 3.5rem;
     }
+    .section-seamless-integration{
+        overflow: hidden;
+    }
 
     .section-faq {
         background-color: #F0EFF2;
@@ -479,9 +482,7 @@
         flex-direction: column-reverse;
         
     }
-    .section-seamless-integration{
-        overflow: hidden;
-    }
+   
     .seamless-integration-info {
         max-width: 100%;
         padding: 3rem 0 0 0;
