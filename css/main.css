@@ -1519,14 +1519,14 @@ ul li {
 .logo-circle-list {
     position: relative;
     height: 432px;
-    animation: circle 50s linear infinite;
-    -webkit-animation: circle 50s linear infinite;
+    animation: circle 40s linear infinite;
+    -webkit-animation: circle 40s linear infinite;
 }
 
 .logo-circle-list>figure,
 .circle-logos figure>img {
-    animation: inner-circle 50s linear infinite;
-    -webkit-animation: inner-circle 50s linear infinite;
+    animation: inner-circle 40s linear infinite;
+    -webkit-animation: inner-circle 40s linear infinite;
 }
 
 .logo-star {
@@ -1646,13 +1646,13 @@ ul li {
 
 .logo-email::after {
     top: 0;
-    left: -2.5rem;
+    left: -2.25rem;
 
 }
 
 .logo-drive::after {
     top: -2.5rem;
-    left: 0rem;
+    left: 7px;
 
 
 }
@@ -1697,4 +1697,4 @@ ul li {
         -ms-transform: rotate(-360deg);
         -o-transform: rotate(-360deg);
     }
-}
+} 

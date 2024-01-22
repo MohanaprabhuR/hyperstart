@@ -347,6 +347,26 @@
     .list-info h6 {
         margin-top: 2rem;
     }
+
+    .logo-star {
+        width: 110px;
+        height: 110px;
+    }
+
+    .logo-bg {
+        width: 80px;
+        height: 80px;
+    }
+
+    .logo-bg::after {
+        width: 26px;
+        height: 26px;
+    }
+
+    .logo-circle-list {
+        height: 350px;
+
+    }
 }
 
 
@@ -457,8 +477,11 @@
     .section-seamless-integration .d-flex {
         flex-wrap: wrap;
         flex-direction: column-reverse;
+        
     }
-
+    .section-seamless-integration{
+        overflow: hidden;
+    }
     .seamless-integration-info {
         max-width: 100%;
         padding: 3rem 0 0 0;
@@ -590,6 +613,9 @@
     .list-info h6 {
         margin-top: 1.875rem;
     }
+    .integration-group-image {
+        max-width: 340px;
+    }
 }
 
 @media (max-width: 580px) {
@@ -680,7 +706,7 @@
         padding: 0 1.875rem;
     }
 
-   
+
 
     .logo-list {
         padding-top: 2.5rem;
@@ -780,7 +806,8 @@
         margin-top: 1rem;
         padding: 0 0 0 1.875rem;
     }
-    .embla__slide.embla-slider-store .embla__slide_image{
+
+    .embla__slide.embla-slider-store .embla__slide_image {
         padding-left: 0;
         margin: 1.875rem -0.5rem -0.5rem -2rem;
     }
@@ -874,5 +901,73 @@
     .brand-title {
         padding: 0 1.25rem;
     }
-   
+
+
+    .logo-star {
+        width: 100px;
+        height: 100px;
+    }
+    .logo-bg {
+        width: 80px;
+        height: 80px;
+    }
+    .logo-circle-list {
+        height: 300px;
+    }
+    .logo-circle-list {
+        height: 320px;
+    }
+    .integration-group-image {
+        max-width: 320px;
+    }
+    .logo-gmail::after {
+        right: -2.5rem;
+        top: 6px;
+    }
+    .logo-sign::after {
+        bottom: 7px;
+    }
+    .logo-salesforce::after {
+        bottom: -2rem;
+        right: 1rem;
+    }
+    .logo-word::after {
+        left: 5px;
+        bottom: -2rem;
+    }
+    
+    .logo-download::after {
+        bottom: 1rem;
+    }  
+    .logo-email::after {
+        top: 10px;
+    }
+    .logo-share-point::after {
+        right: 6px;
+        top: -2.25rem;
+    }
+    .logo-drive::after {
+        top: -2rem;
+    }
+    .logo-sign {
+        top: 40px;
+        right: 35px;
+    }
+    .logo-share-point {
+        top: 40px;
+        left: 35px;
+    }
+    .logo-word {
+        bottom: 33px;
+        right: 35px;
+    }
+    
+    .logo-email {
+        bottom: 33px;
+        left: 35px;
+    }    
+    .logo-download::after {
+        left: -2rem;
+        bottom:0;
+    }
 }
